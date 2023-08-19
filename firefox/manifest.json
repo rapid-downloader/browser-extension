@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Rapid Download Manager",
+    "version": "0.1",
+    "homepage_url": "https://example.com",
+    "description": "Browser extension for Rapid Download Manager",
+    "icons": {
+        "48": "icons/48.png"
+    },
+    "permissions": [
+        "cookies",
+        "downloads",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "rapid.js"
+        ]
+    }
+}
